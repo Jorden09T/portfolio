@@ -5,10 +5,12 @@ Computer Science, BA
 
 ### Work Experience
 
-### Projects
-Advising program
-GoodEats, Recipe app
-AAC Shelter, Website
+## Projects
+#### View the branchs for each project
+- Advising program
+- GoodEats, Recipe app
+- AAC Shelter, Website
+
 
 ## Narratives:
 ### Enhancement One:
