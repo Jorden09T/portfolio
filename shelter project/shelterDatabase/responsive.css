@@ -1,0 +1,72 @@
+/*768px tablets*/
+@media (max-width: 768px){
+    nav{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: white;
+        z-index: 100;
+    }
+    .nav-links{
+        position: fixed;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        flex-direction: column;
+        background-color: white;
+        text-align: center;
+        padding: 15px 0;
+        display: none;
+    }
+    .menu-open{
+        display: block;
+    }
+    .nav-links a{
+        color: var(--purple);
+        display: block;
+        padding: 15px 0;
+    }
+    .hamburger-menu{
+        display: block;
+    }
+    nav .logo{
+        font-size: 1.2rem;
+        color: var(--purple);
+    }
+    .hero-section{
+        height: auto;
+    }
+
+    .hero-section .hero-content{
+        height: 80vh;
+    }
+
+    .hero-section .hero-content h1{
+        font-size: 3rem;
+    }
+
+    .about_section{
+        padding: 40px 0;
+    }
+
+    .about_section .about-countainer .about_details{
+        width: 100%;
+    }
+
+    .contact-section .contact-container{
+        flex-direction: column-reverse;
+    }
+}
+
+/*600px mobile phones*/
+@media (max-width: 600px){
+    .hero-section .hero-content h1{
+        font-size: 2.5rem;
+    }
+
+    .header{
+        font-size: 1.1rem;
+    }
+
+}

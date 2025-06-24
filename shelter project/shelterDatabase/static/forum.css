@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root{
+    --white: #ffffff;
+    --primary: #B0E0E6;
+    --purple: #C8A2C8;
+    --darkgrey: #A9A9A9;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+.hero-section{
+    height: 15vh;
+    background: linear-gradient(rgba(22, 36, 86, 0.5), rgba(22, 36, 86, 0.3)), url("images/adoptapet.jpg");
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    display: flex;
+    padding: 0 3%;
+    justify-content: space-between;
+    height: 60px;
+    align-items: end;
+}
+
+nav .logo{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--white);
+}
+nav .logo span{
+    background-color: var(--primary);
+    border-radius: 5px 15px;
+    padding: 5px 8px;
+    color: var(--white);
+}
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+.nav-links a{
+    text-decoration: none;
+    margin: 0 20px;
+    color: var(--purple);
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.nav-links a:hover{
+    color: var(--primary);
+}
+
+.nav-links .active{
+    color: var(--primary);
+}
+.hamburger-menu{
+    cursor: pointer;
+    display: none;
+}
+.hamburger-menu span{
+    width: 25px;
+    height: 3px;
+    margin: 5px 0;
+    background-color: var(--darkgrey);
+}
+
+.hero-section .hero-content{
+    height: calc(100vh - 60px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px;
+    width: 90%;
+    margin: auto;
+}
+
+.hero-section .hero-content h1{
+    font-size: 3.5rem;
+    color: var(--white);
+    text-align: center;
+}
+
+
+/* foster forum */
+.fostering-section{
+    padding: 50px 0;
+    max-width: 1200px;
+    width: 90%;
+    margin: auto;
+}
+
+.fostering-section h2{
+    font-size: 30px;
+    color: var(--purple);
+    text-align: center;
+}
+
+.fostering-section .foster-container{
+    display: flex;
+    gap: 45px;
+}
+
+.fostering-section .foster-container .form-container{
+    flex: 1;
+}
+
+.fostering-section .foster-container .input-container input{
+    width: 100%;
+    margin-bottom: 20px;
+    height: 50px;
+    padding: 0 15px;
+    outline: none;
+    color: var(--darkgrey);
+    border: solid lightgrey;
+    border-radius: 7px;
+}
+
+.volunteer-section {
+    padding: 50px 0;
+    max-width: 1200px;
+    width: 90%;
+    margin: auto;
+}
+.volunteer-section h2{
+    font-size: 30px;
+    color: var(--purple);
+    text-align: left;
+}
+.volunteer-section h3{
+    font-size: 20px;
+    color: var(--purple);
+    text-align: left;
+}
+
+.volunteer-section .volunteer-container{
+    display: flex;
+    gap: 45px;
+}
+.volunteer-section .volunteer-container .form-container{
+    flex: 1;
+}
+
+.volunteer-section .volunteer-container .input-name-container input{
+    width: 25%;
+    margin-bottom: 20px;
+    height: 50px;
+    padding: 0 15px;
+    outline: none;
+    color: var(--darkgrey);
+    border: solid lightgrey;
+    border-radius: 7px;
+}
+
+.volunteer-section .volunteer-container .input-email-container input,.volunteer-section .volunteer-container .input-container textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    height: 50px;
+    padding: 0 15px;
+    outline: none;
+    color: var(--darkgrey);
+    border: solid lightgrey;
+    border-radius: 7px;
+}
+
+.volunteer-section .volunteer-container .input-container textarea{
+    height: 150px;
+    resize: none;
+    padding: 10px 15px;
+}
+/*submit Button*/
+.cta-btn{
+    text-decoration: none;
+    background-color: var(--primary);
+    color: var(--darkgrey);
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+footer{
+    padding: 50px 30px;
+    background-color: var(--darkgrey);
+    text-align: center;
+    color: var(--purple);
+}
