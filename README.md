@@ -9,6 +9,7 @@ Computer Science, BA
 - Advising program
 - GoodEats, Recipe app
 - AAC Shelter, Website
+- quicknotes
 
 
 ## Narratives:
