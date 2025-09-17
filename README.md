@@ -1,4 +1,4 @@
-#Computer Scientist
+#Computer Science
 
 ### Education
 Computer Science, BA
